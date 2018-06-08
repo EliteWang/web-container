@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>web-container</name>
-    <description>simulate tomcate</description>
+    <description>simulate tomcat</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

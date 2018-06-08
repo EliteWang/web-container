@@ -20,8 +20,10 @@ public class SimpleServer {
     public static void main(String[] args) {
 
         try {
-            ServerSocket serverSocket = new ServerSocket(PORT);
 
+            logger.info("监听开始...");
+
+            ServerSocket serverSocket = new ServerSocket(PORT);
             ServletHandler servletHandler = new ServletHandler(serverSocket);
             servletHandler.start();
 
